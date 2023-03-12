@@ -1,4 +1,20 @@
-.contacto {
+.contacto{
+    p{
+        max-width: 500px;
+        margin: 20px;
+        font-size: large;
+    }
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
   }
+
+
+.Formulario{
+    input, textarea {
+        width: 100%;
+        margin: 10px;
+
+        border-radius: 5px;
+    }
+}

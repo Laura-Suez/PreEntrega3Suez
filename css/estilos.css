@@ -1,0 +1,29 @@
+.contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contacto p {
+  max-width: 500px;
+  margin: 20px;
+  font-size: large;
+}
+@media only screen and (max-width: 768px) {
+  .contacto {
+    flex-direction: column;
+  }
+}
+
+.Formulario input, .Formulario textarea {
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.Videos iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 310px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

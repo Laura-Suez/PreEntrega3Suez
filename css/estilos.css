@@ -1,6 +1,6 @@
 .contacto {
   margin-top: 100px;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 .MainVideos{
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   
 
 }

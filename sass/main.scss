@@ -1,33 +1,42 @@
-.contacto{
-    p{
-        max-width: 500px;
-        margin: 20px;
-        font-size: large;
-    }
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    @media only screen and (max-width: 768px) {
-        flex-direction: column;
-    }
+.contacto {
+  margin-top: 100px;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contacto p {
+  max-width: 500px;
+  margin: 20px;
+  font-size: large;
+}
+
+@media only screen and (max-width: 768px) {
+  .contacto {
+    flex-direction: column;
   }
-
-
-.Formulario{
-    input, textarea {
-        width: 100%;
-        margin: 10px;
-
-        border-radius: 5px;
-    }
+}
+.Formulario input, .Formulario textarea {
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
 }
 
-.Videos{
-    
-    iframe {
-        width: 100%;
-        max-width: 560px;
-        height: 310px;
-    }
-
+.Videos iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 310px;
 }
+
+.MainVideos {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.BodyIndex {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=main.scss.map */

@@ -1,4 +1,6 @@
 .contacto {
+  margin-top: 100px;
+  margin-bottom: 75px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -25,5 +27,14 @@
   max-width: 560px;
   height: 310px;
 }
+.MainVideos{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  
 
-/*# sourceMappingURL=estilos.css.map */
+}
+.BodyIndex{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
